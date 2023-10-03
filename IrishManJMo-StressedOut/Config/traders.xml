@@ -1,0 +1,47 @@
+<StressedOut>
+<append xpath="//trader_item_group[@name='seeds']" >
+	<item name="Wheat Sprout"/>
+	<item name="Barley Sprout"/>
+	<item name="Agave Sprout"/>
+	<item name="Sugar Cane Sprout"/>
+	<item name="Cocoa Sprout"/>
+	<item name="Tobacco Sprout"/>
+	<item name="Indica Sprout"/>
+	<item name="Sativa Sprout"/>
+</append>
+
+<append xpath="//trader_item_group[@name='foodSupplies']" >
+	<item name="Wheat" count="5,20"/>
+	<item name="Flour" count="3,5"/>
+	<item name="Yeast" count="3,5"/>
+	<item name="Rice" count="3,5"/>
+	<item name="Barley" count="5,20"/>
+	<item name="Agave" count="3,8"/>
+	<item name="Sugar Cane" count="3,8"/>
+	<item name="Cocoa" count="3,8"/>
+	<item name="Tobacco" count="5,20"/>
+	<item name="Indica Bud" count="3,8"/>
+	<item name="Sativa Bud" count="3,8"/>
+</append>
+
+<append xpath="//trader_item_group[@name='preparedFood']" >
+	<item name="Honey Ham" count="1,2"/>
+	<item name="Pork Chops" count="1,5"/>
+	<item name="Sushi" count="1,2"/>
+	<item name="Blueberry Muffins" count="1,5"/>
+	<item name="Smoked Game" count="1,2"/>
+	<item name="Chicken Noodles" count="1"/>
+	<item name="Rabbit Stew" count="1"/>
+	<item name="Bobcat Burgers" count="1"/>
+	<item name="Bear Chili" count="1"/>
+</append>
+
+<append xpath="//trader_item_group[@name='traderGeneral']" >
+	<item name="Indica Joint" count="0,1" prob="0.6"/>
+	<item name="Sativa Joint" count="0,1" prob="0.3"/>
+	<item name="A Nice Relaxing Book" count="1" prob="0.8"/>
+	<item name="Cigarette" count="1,10" prob="0.6"/>
+	<item name="Cigar" count="1,5" prob="0.3"/>
+</append>
+
+</StressedOut>

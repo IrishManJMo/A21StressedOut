@@ -1,0 +1,121 @@
+<StressedOut>
+
+<insertAfter xpath="/lootcontainers/lootgroup[@name='groupDrinksRare']">
+			<lootgroup name="craftbeers">
+				<item name="Lager"/>
+				<item name="Porter"/>
+				<item name="Pilsner"/>
+				<item name="Stout"/>
+				<item name="Pale Ale"/>
+				<item name="IPA"/>
+				<item name="Pumpkin Ale"/>
+				<item name="Wheat Ale"/>
+				<item name="drinkJarBeer"/>
+			</lootgroup>
+</insertAfter>
+
+<insertAfter xpath="/lootcontainers/lootgroup[@name='craftbeers']">
+			<lootgroup name="liquors">
+				<item name="Whiskey"/>
+				<item name="Vodka"/>
+				<item name="Rum"/>
+				<item name="Gin"/>
+				<item name="Tequila"/>
+				<item name="Sake"/>
+				<item name="Brandy"/>
+			</lootgroup>
+</insertAfter>
+
+		
+		<append xpath="/lootcontainers/lootcontainer[@id='cooler']">
+		<item group="craftbeers" prob=".3" count="1,3"/>
+		</append>
+		
+		<append xpath="/lootcontainers/lootcontainer[@id='refrigerator']">
+		<item group="craftbeers" prob=".4" count="2,4"/>
+		</append>
+		
+		<append xpath="/lootcontainers/lootcontainer[@id='garbage']">
+		<item group="liquors" prob=".15" count="0,1"/>
+		</append>
+		
+		<append xpath="/lootcontainers/lootcontainer[@id='beerCooler']">
+		<item group="craftbeers" prob=".5" count="2,4"/>
+		</append>
+		
+		<append xpath="/lootcontainers/lootcontainer[@id='cupboard']">
+		<item group="liquors" prob=".15" count="1,2"/>
+		</append>
+		
+		<append xpath="/lootcontainers/lootcontainer[@id='woodenDesk']">
+		<item group="liquors" prob=".15" count="1,2"/>
+		</append>
+		
+		<append xpath="/lootcontainers/lootcontainer[@id='shoppingCart']">
+		<item group="liquors" prob=".1" count="0,1"/>
+		</append>
+		
+		<append xpath="/lootcontainers/lootcontainer[@id='shoppingBasket']">
+		<item group="liquors" prob=".1" count="0,1"/>
+		</append>
+		
+		<append xpath="/lootcontainers/lootcontainer[@id='dumpster']">
+		<item group="liquors" prob=".2" count="1,2"/>
+		</append>
+		
+		<append xpath="/lootcontainers/lootcontainer[@id='policeCars']">
+		<item group="liquors" prob=".15" count="1,2"/>
+		<item group="craftbeers" prob=".3" count="1,2"/>
+		</append>
+		
+		<append xpath="/lootcontainers/lootcontainer[@id='buriedSuppliesT1']">
+		<item group="liquors" prob=".15" count="0,1"/>
+		</append>
+		
+		<append xpath="/lootcontainers/lootcontainer[@id='buriedSuppliesT2']">
+		<item group="liquors" prob=".30" count="2,3"/>
+		</append>
+		
+		<append xpath="/lootcontainers/lootcontainer[@id='shamwayShelves']">
+		<item group="liquors" prob=".1" count="0,1"/>
+		<item group="craftbeers" prob=".3" count="1,2"/>
+		</append>
+		
+		<append xpath="/lootcontainers/lootcontainer[@id='zPackBoss']">
+		<item group="liquors" prob=".1" count="0,1"/>
+		<item group="craftbeers" prob=".3" count="1,2"/>
+		</append>
+		
+		<append xpath="/lootcontainers/lootgroup[@name='seeds']">
+		<item name="Tobacco Sprout"/>
+		<item name="Sativa Sprout"/>
+		<item name="Indica Sprout"/>
+		<item name="Cocoa Sprout"/>
+		<item name="Wheat Sprout"/>
+		<item name="Barley Sprout"/>
+		<item name="Sugar Cane Sprout"/>
+		<item name="Agave Sprout"/>
+		</append>
+		
+		<!--<append xpath="/lootcontainers/lootgroup[@name='seeds']">
+		<item name="Tobacco Plant"/>
+		<item name="Sativa Plant"/>
+		<item name="Indica Plant"/>
+		<item name="Cocoa Plant"/>
+		<item name="Wheat Plant"/>
+		<item name="Barley Plant"/>
+		<item name="Sugar Cane Plant"/>
+		<item name="Agave Plant"/>
+		</append> -->
+		
+		<append xpath="/lootcontainers/lootgroup[@name='groupDumpsterFood']">
+		<item name="Raw Chicken"/>
+		<item name="Raw Fish"/>
+		<item name="Raw Pork"/>
+		<item name="Blueberry Muffins"/>
+		<item name="Sushi"/>
+		<item name="Honey Ham"/>
+		</append>
+
+
+</StressedOut>
